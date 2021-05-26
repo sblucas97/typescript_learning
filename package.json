@@ -1,0 +1,17 @@
+{
+  "name": "typescript_learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+		"prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Barbosa",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.3.0",
+    "typescript": "^4.2.4"
+  }
+}
